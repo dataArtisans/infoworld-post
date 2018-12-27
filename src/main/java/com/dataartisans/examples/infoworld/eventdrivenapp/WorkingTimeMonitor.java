@@ -91,7 +91,7 @@ public class WorkingTimeMonitor {
         // time constants in milliseconds
         private static final long ALLOWED_WORK_TIME = 12 * 60 * 60 * 1000; // 12 hours
         private static final long REQ_BREAK_TIME = 8 * 60 * 60 * 1000;     // 8 hours
-        private static final long CLEAN_UP_INTERVAL = 28 * 60 * 60 * 1000; // 24 hours
+        private static final long CLEAN_UP_INTERVAL = 24 * 60 * 60 * 1000; // 24 hours
 
         private transient DateTimeFormatter formatter;
 
